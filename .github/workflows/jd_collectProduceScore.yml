@@ -23,11 +23,9 @@ jobs:
           node-version: 10.x
       - name: npm install
         run: |
-          cd ~/scripts
           npm install
       - name: '运行 【京东全民营业领金币】'
         run: |
-          cd ~/scripts
           node jd_collectProduceScore.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
