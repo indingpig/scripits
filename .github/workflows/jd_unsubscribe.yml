@@ -23,11 +23,11 @@ jobs:
           node-version: 10.x
       - name: npm install
         run: |
-          cd ~/scripts
+          cd ~/scripits
           npm install
       - name: '运行 【京东取关商品】'
         run: |
-          cd ~/scripts
+          cd ~/scripits
           node jd_unsubscribe.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}

@@ -23,9 +23,11 @@ jobs:
           node-version: 10.x
       - name: npm install
         run: |
+          cd ~/scripits
           npm install
       - name: '运行 【种豆得豆】'
         run: |
+          cd ~/scripits
           node jd_plantBean.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}

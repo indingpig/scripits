@@ -23,9 +23,11 @@ jobs:
           node-version: 10.x
       - name: npm install
         run: |
+          cd ~/scripits
           npm install
       - name: '运行 【宠汪汪偷好友狗粮与积分】'
         run: |
+          cd ~/scripits
           node jd_joy_steal.js
         env:
           JD_COOKIE: ${{ secrets.JD_COOKIE }}
