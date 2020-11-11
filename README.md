@@ -60,10 +60,8 @@
 
   - 腾云云函数使用 [简要说明](iCloud.md)
         
-### 方法三：GitHub Action（推荐）
+### 方法三： 略
 
- - 使用教程看 [GitHub Action教程](githubAction.md)
- - 云端需要用到的 [secrets集合/环境变量](https://github.com/lxk0301/scripts/blob/master/githubAction.md#%E4%B8%8B%E6%96%B9%E6%8F%90%E4%BE%9B%E4%BD%BF%E7%94%A8%E5%88%B0%E7%9A%84-secrets%E5%85%A8%E9%9B%86%E5%90%88)
  
 ### 方法四：Docker（NAS或VPS用户）
 
@@ -107,6 +105,8 @@
 <div align=center><img width="250" height="250" src="https://raw.githubusercontent.com/lxk0301/scripts/master/icon/thanks.jpg"/></div>
 
 ### 特别感谢(排名不分先后)：
+* [lxk0301](https://github.com/lxk0301) 原作者
+
 * [@NobyDa](https://github.com/NobyDa)
 
 * [@chavyleung](https://github.com/chavyleung)
